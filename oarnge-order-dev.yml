@@ -1,6 +1,6 @@
 spring:
   datasource:
     driver-class-name: com.mysql.jdbc.Driver
-    password: '{cipher}c0e2a9acb04f3c0bbc47f28d6262213530b77d8b44c1aaa55f57b9a5e96af55a'
+    password:
     username: '{cipher}0584109449ac9c260be41788dba8d39122a86968e299d7d0f686bb7d3f616e70'
     url: jdbc:mysql://127.0.0.1:3306/orders?useSSL=false
