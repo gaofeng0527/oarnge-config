@@ -24,3 +24,4 @@ rabbitmq:
 6. 启动程序，当我们修改配置后，需要使用暴露出来的接口进行更新拉取，就不用在重启服务了
  > curl -X POST http://localhost:7000/actuator/bus-refresh
 7. 我发现，其实不用拉取，直接通过应用访问文件，也会更新配置
+8. 当微服务有使用配置属性的需要使用@RefreshScope
