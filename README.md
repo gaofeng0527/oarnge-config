@@ -25,3 +25,10 @@ rabbitmq:
  > curl -X POST http://localhost:7000/actuator/bus-refresh
 7. 我发现，其实不用拉取，直接通过应用访问文件，也会更新配置
 8. 当微服务有使用配置属性的需要使用@RefreshScope
+9. 如何修改完配置，配置中心会自动拉取更新呢，添加一下依赖
+```xml
+        <dependency>
+            <groupId>org.springframework.cloud</groupId>
+            <artifactId>spring-cloud-config-monitor</artifactId>
+        </dependency>
+```
