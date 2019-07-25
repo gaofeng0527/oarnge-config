@@ -4,3 +4,4 @@ spring:
     password:
     username: '{cipher}0584109449ac9c260be41788dba8d39122a86968e299d7d0f686bb7d3f616e70'
     url: jdbc:mysql://127.0.0.1:3306/orders?useSSL=false
+    type: com.zaxxer.hikari.HikariDatasource
